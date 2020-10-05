@@ -6,9 +6,11 @@
 /*   By: hecho <hecho@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/28 12:34:27 by hecho             #+#    #+#             */
-/*   Updated: 2020/09/28 12:49:39 by hecho            ###   ########.fr       */
+/*   Updated: 2020/10/05 15:26:07 by hecho            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {
