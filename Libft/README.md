@@ -1,6 +1,6 @@
 # Libft
 1. Libc functions</br>
-      - [x] memset
+      ✅ memset
       - [x] bzero
       - [x] memcpy
       - [x] memccpy
