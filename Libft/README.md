@@ -1,6 +1,6 @@
 # Libft
 1. Libc functions</br>
-      ✅ memset
+      ✅ memset</br>
       ✅ bzero
       - [x] memcpy
       - [x] memccpy
@@ -21,8 +21,8 @@
       - [x] isdigit
       - [x] isalnum
       - [x] isascii
-      - [x] isprint
-      ✅ toupper
+      - [x] isprint</br>
+      ✅ toupper</br>
       ✅ tolower
       </br></br>
 2. Additional functions</br>
@@ -31,6 +31,11 @@
 </br></br>
 ---
 ### man
+1. memset : 주어진 길이만큼 주어진 값으로 채움
+2. bzero : 주어진 길이만큼 0으로 채움
+3. toupper : 소문자를 대문자로 (글자 아니면 패스)
+4. tolower : 대문자를 소문자로 (글자 아니면 패스)</br>
+---
 1. memccpy</br> 
 - copy string until character found
 - void *memccpy(void *restrict dst, const void *restrict src, int c, size_t n);
