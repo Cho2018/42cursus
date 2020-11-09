@@ -23,7 +23,10 @@
       - [x] isascii
       - [x] isprint
       - [x] toupper
-      - [x] tolower
+      - [x] tolower</br>
+2. Additional functions</br>
+      - [x] ft_substr
+      - [x] ft_strjoin
 </br></br>
 ---
 ### man
