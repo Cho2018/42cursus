@@ -10,20 +10,20 @@
       - [x] atoi
       - [x] calloc
       - [x] strdup
-      - [ ] strlen
-      - [ ] strlcpy
-      - [ ] strlcat
-      - [ ] strchr
-      - [ ] strrchr
-      - [ ] strnstr
-      - [ ] strncmp
-      - [ ] isalpha
-      - [ ] isdigit
-      - [ ] isalnum
-      - [ ] isascii
-      - [ ] isprint
-      - [ ] toupper
-      - [ ] tolower
+      - [x] strlen
+      - [x] strlcpy
+      - [x] strlcat
+      - [x] strchr
+      - [x] strrchr
+      - [x] strnstr
+      - [x] strncmp
+      - [x] isalpha
+      - [x] isdigit
+      - [x] isalnum
+      - [x] isascii
+      - [x] isprint
+      - [x] toupper
+      - [x] tolower
 </br></br>
 ---
 ### man
