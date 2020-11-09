@@ -1,7 +1,7 @@
 # Libft
 1. Libc functions</br>
       ✅ memset
-      - [x] bzero
+      ✅ bzero
       - [x] memcpy
       - [x] memccpy
       - [x] memmove
@@ -22,8 +22,9 @@
       - [x] isalnum
       - [x] isascii
       - [x] isprint
-      - [x] toupper
-      - [x] tolower</br></br>
+      ✅ toupper
+      ✅ tolower
+      </br></br>
 2. Additional functions</br>
       - [x] ft_substr
       - [x] ft_strjoin
