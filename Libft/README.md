@@ -6,14 +6,14 @@
       - [x] memccpy
       - [x] memmove
       - [x] memchr
-      - [x] memcmp
-      - [x] atoi
+      - [x] memcmp</br>
+      ✅ atoi
       - [x] calloc
-      - [x] strdup
-      - [x] strlen
+      - [x] strdup</br>
+      ✅ strlen
       - [x] strlcpy
-      - [x] strlcat
-      - [x] strchr
+      - [x] strlcat</br>
+      ✅ strchr
       - [x] strrchr
       - [x] strnstr
       - [x] strncmp
@@ -48,7 +48,8 @@
 4. tolower : 대문자를 소문자로 (글자 아니면 패스)
 5. atoi : 스트링을 int로 변환
 </br>ex) number / sign | number / whitespace | number / whitespace | sign | number
-</br>
+6. strlen : 스트링 길이 반환
+7. strchr : 스트링에서 c가 처음으로 나오는 포인터 반환
 ---
 1. memccpy</br> 
 - copy string until character found
