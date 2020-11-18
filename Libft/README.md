@@ -40,7 +40,10 @@
 ---
 ### man
 1. memset : 주어진 길이만큼 주어진 값으로 채움
+- b is interpreted as arrays of unsigned char
+- c is interpreted as unsigned char
 2. bzero : 주어진 길이만큼 0으로 채움
+- s is interpreted as arrays of unsigned char
 3. toupper : 소문자를 대문자로 (글자 아니면 패스)
 4. tolower : 대문자를 소문자로 (글자 아니면 패스)</br>
 ---
