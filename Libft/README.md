@@ -28,6 +28,14 @@
 2. Additional functions</br>
       - [x] ft_substr
       - [x] ft_strjoin
+      - [x] ft_strtrim
+      - [x] ft_split
+      - [x] ft_itoa
+      - [x] ft_strmapi
+      - [x] ft_putchar_fd
+      - [x] ft_putstr_fd
+      - [x] ft_putendl_fd
+      - [x] ft_putnbr_fd
 </br></br>
 ---
 ### man
