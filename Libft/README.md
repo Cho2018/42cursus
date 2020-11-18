@@ -40,12 +40,15 @@
 ---
 ### man
 1. memset : 주어진 길이만큼 주어진 값으로 채움
-- b is interpreted as arrays of unsigned char
-- c is interpreted as unsigned char
+</br>b is interpreted as arrays of unsigned char
+</br>c is interpreted as unsigned char
 2. bzero : 주어진 길이만큼 0으로 채움
-- s is interpreted as arrays of unsigned char
+</br>s is interpreted as arrays of unsigned char
 3. toupper : 소문자를 대문자로 (글자 아니면 패스)
-4. tolower : 대문자를 소문자로 (글자 아니면 패스)</br>
+4. tolower : 대문자를 소문자로 (글자 아니면 패스)
+5. atoi : 스트링을 int로 변환
+</br>ex) number / sign | number / whitespace | number / whitespace | sign | number
+</br>
 ---
 1. memccpy</br> 
 - copy string until character found
