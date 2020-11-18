@@ -31,11 +31,11 @@
       - [x] ft_strtrim
       - [x] ft_split
       - [x] ft_itoa
-      - [x] ft_strmapi
-      - [x] ft_putchar_fd
-      - [x] ft_putstr_fd
-      - [x] ft_putendl_fd
-      - [x] ft_putnbr_fd
+      - [x] ft_strmapi</br>
+      ✅ ft_putchar_fd</br>
+      ✅ ft_putstr_fd</br>
+      ✅ ft_putendl_fd</br>
+      ✅ ft_putnbr_fd
 </br></br>
 ---
 ### man
@@ -84,11 +84,6 @@
 - return : zero if the two strings are identical
 - Otherwise returns the difference between the first two differing bytes (treated as unsigned char values)
 - zero-length strings are always identical
-
-5. atoi</br>
-- convert ascii string to integer
-- int atoi(const char *str);
-- converts the initial portion of the string pointed to by str to int representation
 
 6. calloc</br>
 - memory allocation
