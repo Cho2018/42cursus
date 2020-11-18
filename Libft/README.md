@@ -17,12 +17,12 @@
       - [x] strrchr
       - [x] strnstr
       - [x] strncmp</br>
-      ✅ isalpha
-      ✅ isdigit
-      ✅ isalnum
-      ✅ isascii
-      ✅ isprint
-      ✅ toupper
+      ✅ isalpha</br>
+      ✅ isdigit</br>
+      ✅ isalnum</br>
+      ✅ isascii</br>
+      ✅ isprint</br>
+      ✅ toupper</br>
       ✅ tolower
       </br></br>
 2. Additional functions</br>
