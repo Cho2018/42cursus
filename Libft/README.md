@@ -16,13 +16,13 @@
       ✅ strchr
       - [x] strrchr
       - [x] strnstr
-      - [x] strncmp
-      - [x] isalpha
-      - [x] isdigit
-      - [x] isalnum
-      - [x] isascii
-      - [x] isprint</br>
-      ✅ toupper</br>
+      - [x] strncmp</br>
+      ✅ isalpha
+      ✅ isdigit
+      ✅ isalnum
+      ✅ isascii
+      ✅ isprint
+      ✅ toupper
       ✅ tolower
       </br></br>
 2. Additional functions</br>
@@ -50,6 +50,11 @@
 </br>ex) number / sign | number / whitespace | number / whitespace | sign | number
 6. strlen : 스트링 길이 반환
 7. strchr : 스트링에서 c가 처음으로 나오는 포인터 반환
+8. isalpha : 알파벳인지 확인
+9. isdigit : 숫자인지 확인
+10. isalnum : 알파벳이나 숫자인지 확인
+11. isascii : 아스키 문자인지 확인
+12. isprint : 프린트 가능인지 확인
 ---
 1. memccpy</br> 
 - copy string until character found
