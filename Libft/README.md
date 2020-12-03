@@ -3,11 +3,11 @@
       ✅ memset</br>
       ✅ bzero</br>
       ✅ memcpy</br>
-      ✅ memccpy</
-      ✅ memmove
-      - [x] memchr
-      - [x] memcmp</br>
-      ✅ atoi
+      ✅ memccpy</br>
+      ✅ memmove</br>
+      ✅ memchr</br>
+      ✅ memcmp</br>
+      ✅ atoi</br>
       - [x] calloc
       - [x] strdup</br>
       ✅ strlen
@@ -58,22 +58,9 @@
 13. memcpy : copy memory area (src에서 dst로 n 바이트 복사)
 14. memccpy : .=. memcpy (src에서 c 발견 시, 복사 멈춤)
 15. memmove : .=. memcpy (overlap 따져서 복사 진행) (https://hand-over.tistory.com/47?category=828959)
+16. memchr : s에서 c가 처음으로 나오는 위치 (포인터) 반환
+17. memcmp : compare byte string
 ---
-3. memchr</br>
-- locate byte in byte string
-- void *memchr(const void *s, int c, size_t n);
-- locates the first occurence of c (converted to an unsigned char) in string s
-- return : a pointer to the byte located, or NULL if no such byte exists within n bytes
-
-4. memcmp</br>
-- compare byte string
-- int memcmp(const void *s1, const void *s2, size_t n);
-- compares byte string s1 against byte string s2
-- both strings are assumed to be n bytes long
-- return : zero if the two strings are identical
-- Otherwise returns the difference between the first two differing bytes (treated as unsigned char values)
-- zero-length strings are always identical
-
 6. calloc</br>
 - memory allocation
 - void *calloc(size_t count, size_t size);
