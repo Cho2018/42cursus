@@ -1,10 +1,10 @@
 # Libft
 1. Libc functions</br>
       ✅ memset</br>
-      ✅ bzero
-      - [x] memcpy
-      - [x] memccpy
-      - [x] memmove
+      ✅ bzero</br>
+      ✅ memcpy</br>
+      ✅ memccpy</
+      ✅ memmove
       - [x] memchr
       - [x] memcmp</br>
       ✅ atoi
@@ -55,21 +55,10 @@
 10. isalnum : 알파벳이나 숫자인지 확인
 11. isascii : 아스키 문자인지 확인
 12. isprint : 프린트 가능인지 확인
+13. memcpy : copy memory area (src에서 dst로 n 바이트 복사)
+14. memccpy : .=. memcpy (src에서 c 발견 시, 복사 멈춤)
+15. memmove : .=. memcpy (overlap 따져서 복사 진행) (https://hand-over.tistory.com/47?category=828959)
 ---
-1. memccpy</br> 
-- copy string until character found
-- void *memccpy(void *restrict dst, const void *restrict src, int c, size_t n);
-- copies bytes from string src to string dst
-- If the character c (as converted to an unsigned char) occurs in the string src, the copy stops and a pointer to the byte after the copy of c in the string dst is returned
-- Otherwise, n bytes are copied, and a NULL pointer is returned
-
-2. memmove</br>
-- copy byte string
-- void *memmove(void *dst, const void *src, size_t len);
-- copies len bytes from string src to string dst
-- The two strings may overlap; the copy is always done in a non-destructive manner
-- return : the original value of dst
-
 3. memchr</br>
 - locate byte in byte string
 - void *memchr(const void *s, int c, size_t n);
