@@ -8,8 +8,8 @@
       ✅ memchr</br>
       ✅ memcmp</br>
       ✅ atoi</br>
-      - [x] calloc
-      - [x] strdup</br>
+      ✅ calloc</br>
+      ✅ strdup</br>
       ✅ strlen
       - [x] strlcpy
       - [x] strlcat</br>
@@ -60,15 +60,8 @@
 15. memmove : .=. memcpy (overlap 따져서 복사 진행) (https://hand-over.tistory.com/47?category=828959)
 16. memchr : s에서 c가 처음으로 나오는 위치 (포인터) 반환
 17. memcmp : compare byte string
----
-6. calloc</br>
-- memory allocation
-- void *calloc(size_t count, size_t size);
-- contiguously allocates enough space for count objects that are size bytes of memory each and returns a pointer to the allocated memory
-- The allocated memory is filled with bytes of value zero
-
-7. strdup</br>
-- save a copy of a string
-- char *strdup(const char *s1);
-- allocates sufficient memory for a copy of the string s1, does the copy, and returns a pointer to it
-- If insufficient memory is available, NULL is returned and errno is set to ENOMEM
+18. calloc
+</br>memory allocation
+</br>allocates enough space for count objects that are size bytes of memory each
+</br>the allocated memory is filled with bytes of value zero
+19. strdup : 메모리 할당하고 복사
