@@ -13,10 +13,10 @@
       ✅ strlen
       - [x] strlcpy
       - [x] strlcat</br>
-      ✅ strchr
-      - [x] strrchr
-      - [x] strnstr
-      - [x] strncmp</br>
+      ✅ strchr</br>
+      ✅ strrchr</br>
+      ✅ strnstr</br>
+      ✅ strncmp</br>
       ✅ isalpha</br>
       ✅ isdigit</br>
       ✅ isalnum</br>
@@ -65,3 +65,6 @@
 </br>allocates enough space for count objects that are size bytes of memory each
 </br>the allocated memory is filled with bytes of value zero
 19. strdup : 메모리 할당하고 복사
+20. strncmp : compare strings (n만큼만 비교)
+21. strnstr : haystack에서 처음으로 needle이 나오는 위치 탐색 (len보다 적게 탐색해야 함) 
+22. strrchr : s에서 마지막으로 c가 나오는 위치 탐색
