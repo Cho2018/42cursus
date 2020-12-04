@@ -1,4 +1,5 @@
 # Libft
+0. Makefile, libft.h</br></br>
 1. Libc functions</br>
       ✅ memset</br>
       ✅ bzero</br>
