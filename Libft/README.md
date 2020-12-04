@@ -10,8 +10,8 @@
       ✅ atoi</br>
       ✅ calloc</br>
       ✅ strdup</br>
-      ✅ strlen
-      - [x] strlcpy
+      ✅ strlen</br>
+      ✅ strlcpy
       - [x] strlcat</br>
       ✅ strchr</br>
       ✅ strrchr</br>
@@ -68,3 +68,8 @@
 20. strncmp : compare strings (n만큼만 비교)
 21. strnstr : haystack에서 처음으로 needle이 나오는 위치 탐색 (len보다 적게 탐색해야 함) 
 22. strrchr : s에서 마지막으로 c가 나오는 위치 탐색
+23. strlcpy : 
+</br>size-bounded string copying and concatenation
+</br>copies up to (dstsize - 1) characters from the string src to dst
+</br>dstsize != 0 -> NULL로 끝나도록
+</br>return : length of src
