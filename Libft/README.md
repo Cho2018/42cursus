@@ -11,8 +11,8 @@
       ✅ calloc</br>
       ✅ strdup</br>
       ✅ strlen</br>
-      ✅ strlcpy
-      - [x] strlcat</br>
+      ✅ strlcpy</br>
+      ✅ strlcat</br>
       ✅ strchr</br>
       ✅ strrchr</br>
       ✅ strnstr</br>
@@ -73,3 +73,8 @@
 </br>copies up to (dstsize - 1) characters from the string src to dst
 </br>dstsize != 0 -> NULL로 끝나도록
 </br>return : length of src
+24. strlcat : 
+</br>size-bounded string copying and concatenation
+</br>appends string src to the end of dst
+</br>append at most (dstsize - strlen(dst) - 1)
+</br>return : 결합되는 문자열의 총 길이 (dstsize < strlen(dst) ? strlen(src) + dstsize : strlen(src) + strlen(dst))
