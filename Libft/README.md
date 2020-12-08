@@ -27,11 +27,11 @@
       ✅ tolower
       </br></br>
 2. Additional functions</br>
-      - [x] ft_substr
-      - [x] ft_strjoin
-      - [x] ft_strtrim
-      - [x] ft_split
-      - [x] ft_itoa
+      ✅ ft_substr</br>
+      ✅ ft_strjoin</br>
+      ✅ ft_strtrim</br>
+      - [x] ft_split</br>
+      ✅ ft_itoa
       - [x] ft_strmapi</br>
       ✅ ft_putchar_fd</br>
       ✅ ft_putstr_fd</br>
