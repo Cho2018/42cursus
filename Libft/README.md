@@ -1,43 +1,23 @@
 # Libft
-0. Makefile, libft.h</br></br>
-1. Libc functions</br>
-      ✅ memset</br>
-      ✅ bzero</br>
-      ✅ memcpy</br>
-      ✅ memccpy</br>
-      ✅ memmove</br>
-      ✅ memchr</br>
-      ✅ memcmp</br>
-      ✅ atoi</br>
-      ✅ calloc</br>
-      ✅ strdup</br>
-      ✅ strlen</br>
-      ✅ strlcpy</br>
-      ✅ strlcat</br>
-      ✅ strchr</br>
-      ✅ strrchr</br>
-      ✅ strnstr</br>
-      ✅ strncmp</br>
-      ✅ isalpha</br>
-      ✅ isdigit</br>
-      ✅ isalnum</br>
-      ✅ isascii</br>
-      ✅ isprint</br>
-      ✅ toupper</br>
-      ✅ tolower
-      </br></br>
-2. Additional functions</br>
-      ✅ ft_substr</br>
-      ✅ ft_strjoin</br>
-      ✅ ft_strtrim</br>
-      - [x] ft_split</br>
-      ✅ ft_itoa
-      - [x] ft_strmapi</br>
-      ✅ ft_putchar_fd</br>
-      ✅ ft_putstr_fd</br>
-      ✅ ft_putendl_fd</br>
-      ✅ ft_putnbr_fd
-</br></br>
+>"The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects."
+
+## 💡 Mandatory part
+
+### Libc functions
+
+- **memory** : `memset` `bzero` `memcpy` `memccpy` `memmove` `memchr` `memcmp` `calloc`
+
+- **string** : `strlen` `strlcpy` `strlcat` `strchr` `strrchr` `strnstr` `strncmp` `strdup` `atoi`
+
+- **is_sth, to_sth** : `isalpha` `isdigit` `isalnum` `isascii` `isprint` `toupper` `tolower`
+
+### Additional functions
+
+- **string** : `ft_substr` `ft_strjoin` `ft_strtrim` `ft_split` `ft_itoa` `ft_strmapi`
+
+- **put_fd** : `ft_putchar_fd` `ft_putstr_fd` `ft_putendl_fd` `ft_putnbr_fd`
+
+## 💡 Bonus part
 ---
 ### man
 1. memset : 주어진 길이만큼 주어진 값으로 채움
