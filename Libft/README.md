@@ -18,8 +18,10 @@
 - **put_fd** : `ft_putchar_fd` `ft_putstr_fd` `ft_putendl_fd` `ft_putnbr_fd`
 
 ## 💡 Bonus part
----
-### man
+
+- **linked list**
+
+## man
 1. memset : 주어진 길이만큼 주어진 값으로 채움
 </br>b is interpreted as arrays of unsigned char
 </br>c is interpreted as unsigned char
