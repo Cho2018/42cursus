@@ -1,4 +1,4 @@
-# Libft
+# Libft - ![hecho's 42 Libft Score](https://badge42.herokuapp.com/api/project/hecho/Libft)
 >"The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects."
 
 ## 💡 Mandatory part
